@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Map Lab</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
     <style>
         #map {
             height: 400px;
@@ -31,7 +31,6 @@
             lng: getRandomInRange(-100, -90, 3)
         }));
 
-        // Initialize the map
         const map = L.map('map').setView([32.5, -95], 5);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap contributors'
